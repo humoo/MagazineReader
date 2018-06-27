@@ -1,0 +1,2 @@
+# MagazineReader
+A MagazineReader
