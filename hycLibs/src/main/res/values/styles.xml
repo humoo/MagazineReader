@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AlertDialog 背景透明-->
+    <style name="NoBackGroundDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <!-- 这里设置背景为透明，为了隐藏边框 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--取消dialog背景遮罩層-->
+        <item name="android:windowIsFloating">false</item>
+        <!--<item name="android:windowIsTranslucent">false</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <!--&lt;!&ndash; 这里是修改顶部标题背景颜色，具体颜色自己定，可以是图片 &ndash;&gt;-->
+        <!--<item name="android:topDark">@color/white</item>-->
+        <!--&lt;!&ndash; 这里是修改内容区域背景颜色 &ndash;&gt;-->
+        <!--<item name="android:centerDark">@color/white</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+    </style>
+
+    <!--pop view 上至下-->
+    <style name="TopSelectAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/pop_top_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_top_exit</item>
+    </style>
+
+    <!--pop view 下至上-->
+    <style name="BottomSelectAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/pop_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_bottom_exit</item>
+    </style>
+
+
+    <declare-styleable name="PerfectArcView">
+        <attr name="p_arc_startColor" format="color" />
+        <attr name="p_arc_endColor" format="color" />
+        <attr name="p_arc_showImage" format="boolean" />
+    </declare-styleable>
+</resources>

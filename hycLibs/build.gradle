@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '27.0.3'
+
+//    buildToolsVersion mBuildToolsVersion
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.+'
+    implementation "com.android.support:recyclerview-v7:28+"
+        implementation "com.android.support:design:28+"
+    //okGo,封装了OkHttp ,https://github.com/jeasonlzy/okhttp-OkGo
+    implementation 'com.lzy.net:okgo:3.0.4'
+    //okgo 下载上传管理
+    implementation 'com.lzy.net:okserver:2.0.5'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    //Gson 库
+    //butterknife
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    //以下放在 app gradle中
+    //    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+}

@@ -1,0 +1,63 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="statusBar_view_height">0dp</dimen>
+
+    <dimen name="paddingLR">@dimen/px20dp</dimen>
+    <dimen name="paddingLRDouble">@dimen/px40dp</dimen>
+
+    <dimen name="title_bar_height">@dimen/px90dp</dimen>
+
+    <!--输入框文字大小-->
+    <dimen name="edit_text_size">14sp</dimen>
+
+    <!--带图标文字大小-->
+    <dimen name="icon_text_5_item">8sp</dimen>
+
+    <!--文字大小-->
+    <dimen name="text_x80">40.5sp</dimen>
+    <dimen name="text_x70">35.5sp</dimen>
+    <dimen name="text_x60">30.5sp</dimen>
+    <dimen name="text_x48">24.5sp</dimen>
+    <dimen name="text_x44">22.5sp</dimen>
+    <dimen name="text_x40">20.5sp</dimen>
+    <dimen name="text_x36">18.5sp</dimen>
+    <dimen name="text_x34">17.6sp</dimen>
+    <dimen name="text_x32">16.6sp</dimen>
+    <dimen name="text_x30">16.5sp</dimen>
+    <dimen name="text_x28">14.5sp</dimen>
+    <dimen name="text_x26">13.5sp</dimen>
+    <dimen name="text_x24">12.5sp</dimen>
+    <dimen name="text_x22">11.5sp</dimen>
+    <dimen name="text_x20">10.5sp</dimen>
+    <dimen name="text_x18">9.5sp</dimen>
+    <dimen name="text_x16">8.5sp</dimen>
+    <dimen name="text_x14">7.5sp</dimen>
+
+    <!--一般文字大小-->
+    <dimen name="normal_text_new">16sp</dimen>
+
+    <!---->
+    <dimen name="small_text_new">10sp</dimen>
+    <dimen name="icon_action_left_width">@dimen/px60dp</dimen>
+    <dimen name="icon_action_right_width">@dimen/px60dp</dimen>
+
+    <!--提示框标题-文字大小-->
+    <dimen name="alert_title_size">18sp</dimen>
+    <!--提示框按钮文字大小-->
+    <dimen name="alert_button">16sp</dimen>
+    <dimen name="alert_content">16sp</dimen>
+    <!--item 标题大小-->
+    <dimen name="item_title">18sp</dimen>
+    <!--item desc描述大小-->
+    <dimen name="item_desc">14sp</dimen>
+    <dimen name="item_button">10sp</dimen>
+
+    <dimen name="title_bar_text">18sp</dimen>
+
+    <!--按钮大小-->
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="button_height">40dp</dimen>
+
+</resources>

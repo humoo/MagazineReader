@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HLoadingView">
+        <attr name="loadImg" format="reference" />
+        <attr name="loadImgScale" format="integer" />
+        <attr name="loadText" format="string" />
+        <attr name="loadTextColor" format="color" />
+        <attr name="loadTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="KickBackScrollView">
+        <attr name="backgroundImage" format="reference" />
+        <attr name="backgroundImageHeight" format="dimension" />
+        <attr name="backgroundImageScale" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="AnnularProgress">
+        <!--画笔宽度-->
+        <attr name="progress_paint_width" format="dimension" />
+        <!--画笔颜色-->
+        <attr name="progress_paint_color" format="color" />
+        <!--加载进度的开始位置-->
+        <attr name="progress_location" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <!--画笔宽度-->
+        <attr name="circle_progress_paint_width" format="dimension" />
+        <!--画笔颜色-->
+        <attr name="circle_progress_paint_color" format="color" />
+        <!--字体颜色-->
+        <attr name="circle_progress_text_color" format="color" />
+        <!--字体尺寸-->
+        <attr name="circle_progress_text_size" format="dimension" />
+        <!--加载进度的开始位置-->
+        <attr name="circle_location" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+
+</resources>
